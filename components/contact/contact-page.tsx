@@ -16,40 +16,39 @@ export default function ContactPage() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <Card className="text-center p-6">
+        <Card className="text-center p-6 bg-blue-200">
           <CardContent className="pt-6">
-            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
               <MapPin className="w-8 h-8" />
             </div>
             <h2 className="text-xl font-bold mb-4">Our Address:</h2>
-            <p className="text-gray-600">
-              521684 Majadra Street Victoria Road, New York.
+            <p className="text-gray-600 font-bold">
+              Keshwapur Kusugal road Hubballi Karnataka 580-023.
             </p>
           </CardContent>
         </Card>
 
-        <Card className="text-center p-6">
+        <Card className="text-center p-6 bg-blue-200">
           <CardContent className="pt-6">
-            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
               <Phone className="w-8 h-8" />
             </div>
             <h2 className="text-xl font-bold mb-4">Contact Info:</h2>
-            <div className="text-gray-600 space-y-2">
-              <p>+523 6738 8264</p>
-              <p>+522 3452 7986</p>
+            <div className="text-gray-600 space-y-2 font-bold">
+              <p>+91 7676193045</p>
+              <p>+91 9611828660</p>
             </div>
           </CardContent>
         </Card>
 
-        <Card className="text-center p-6">
+        <Card className="text-center p-6 bg-blue-200">
           <CardContent className="pt-6">
-            <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
               <Mail className="w-8 h-8" />
             </div>
             <h2 className="text-xl font-bold mb-4">Email:</h2>
-            <div className="text-gray-600 space-y-2">
-              <p>support@gmail.com</p>
-              <p>info@email.com</p>
+            <div className="text-gray-600 space-y-2 font-bold">
+              <p>knacprosolutions@gmail.com</p>
             </div>
           </CardContent>
         </Card>

@@ -188,7 +188,7 @@ export function ParentTestimonials() {
             <div className="flex items-center justify-between mb-8">
                 <div className="w-1/3">
                     <Image
-                        src={"/assets/parent-testimonials.png"}
+                        src={"/assets/images/services1.jpg"}
                         alt={"parent testimonials"}
                         width={300}
                         height={200}

@@ -4,23 +4,23 @@ import { ArrowUpRight } from 'lucide-react'
 export default function ServicesSection() {
   const services = [
     {
-      title: "Application Security",
-      image: "/placeholder.svg?height=400&width=600",
+      title: "Web Applications",
+      image: "/assets/images/webdev.jpg?height=400&width=600",
       description: "The Imperative of Cybersecurity in an Interconnected World.",
     },
     {
-      title: "Infrastructure Security",
-      image: "/placeholder.svg?height=400&width=600",
+      title: "Mobile Applications",
+      image: "/assets/images/mobileapp.jpg?height=400&width=600",
       description: "The Imperative of Cybersecurity in an Interconnected World.",
     },
     {
-      title: "Cloud-Native Security",
-      image: "/placeholder.svg?height=400&width=600",
+      title: "UI/UX Designs",
+      image: "/assets/images/UI.jpg?height=400&width=600",
       description: "The Imperative of Cybersecurity in an Interconnected World.",
     },
     {
-      title: "Network Security",
-      image: "/placeholder.svg?height=400&width=600",
+      title: "Testing",
+      image: "/assets/images/testing.jpg?height=400&width=600",
       description: "The Imperative of Cybersecurity in an Interconnected World.",
     },
   ]
@@ -30,8 +30,8 @@ export default function ServicesSection() {
       <div className="flex justify-between items-center mb-12">
         <div>
           <h3 className="text-[#FF6B00] text-lg mb-4">Our Services</h3>
-          <h2 className="text-4xl md:text-5xl font-bold max-w-2xl">
-            What We Do for Your (SIEM) Security in Paheli.
+          <h2 className="text-4xl md:text-5xl font-thin max-w-7xl">
+          Tailored Solutions for your Success, Elevate your Experience with Our Exceptional and Comprehensive Services Today
           </h2>
         </div>
         <button className="hidden md:flex items-center gap-2 px-6 py-3 border border-black rounded-full">
