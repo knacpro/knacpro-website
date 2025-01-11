@@ -31,11 +31,13 @@ export default function ContactPage() {
         <Card className="text-center p-6 bg-blue-200">
           <CardContent className="pt-6">
             <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-              <Phone className="w-8 h-8" />
+            <Link href="tel:+917676193045">
+            <Phone className="text-black w-6 h-6" />
+            </Link>
             </div>
             <h2 className="text-xl font-bold mb-4">Contact Info:</h2>
             <div className="text-gray-600 space-y-2 font-bold">
-              <p>+91 7676193045</p>
+             <p>+91 7676193045</p>
               <p>+91 9611828660</p>
             </div>
           </CardContent>
@@ -44,7 +46,14 @@ export default function ContactPage() {
         <Card className="text-center p-6 bg-blue-200">
           <CardContent className="pt-6">
             <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-              <Mail className="w-8 h-8" />
+            <Link
+              href="mailto:knacprosolutions@gmail.com?subject=Subject"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <Mail className="text-black w-8 h-8" />
+            </Link>
+
             </div>
             <h2 className="text-xl font-bold mb-4">Email:</h2>
             <div className="text-gray-600 space-y-2 font-bold">

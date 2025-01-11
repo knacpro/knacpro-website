@@ -5,7 +5,7 @@ export default function AboutPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pt-28">
       {/* Header Section */}
       <div className="text-center mb-16">
-        <h1 className="text-4xl font-bold mb-4">About Us</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">About Us</h1>
         <div className="flex items-center justify-center gap-2">
           <span>Home</span>
           <span className="text-gray-400">{'>'}</span>
@@ -51,7 +51,6 @@ export default function AboutPage() {
         <div className="space-y-8">
           <span className="text-[#FF5722] font-medium"></span>
           <h2 className="text-3xl lg:text-4xl font-bold leading-tight">
-            About Us
           </h2>
           <p className="text-gray-600 leading-relaxed font-normal">
           At KnacPro Solutions, we have built a solid foundation of expertise to meet the growing demands of our clients. Our skilled and proficient teams have helped companies enhance their efficiency, knowledge, and profitability. As a closely held company, we pride ourselves on delivering a personalized, hands-on approach to every partnership.

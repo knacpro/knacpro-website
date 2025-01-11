@@ -35,10 +35,10 @@ export default function ProjectsShowcase() {
                             Projects.
                         </h1>
                     </div>
-                    <button className="hidden md:flex items-center gap-2 px-6 py-3 text-white rounded-lg border border-purple-500/30 bg-gradient-to-r from-purple-500/10 to-transparent hover:bg-purple-500/20 transition-colors">
+                    {/* <button className="hidden md:flex items-center gap-2 px-6 py-3 text-white rounded-lg border border-purple-500/30 bg-gradient-to-r from-purple-500/10 to-transparent hover:bg-purple-500/20 transition-colors">
                         <span className="h-2 w-2 rounded-full bg-[#FF7B47]" />
                         View All Projects
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* Responsive Grid Layout */}
@@ -70,10 +70,10 @@ export default function ProjectsShowcase() {
                     </div>
                 </div>
 
-                <button className="md:hidden flex items-center gap-2 px-6 py-3 text-white rounded-lg border border-purple-500/30 bg-gradient-to-r from-purple-500/10 to-transparent w-full justify-center mt-6">
+                {/* <button className="md:hidden flex items-center gap-2 px-6 py-3 text-white rounded-lg border border-purple-500/30 bg-gradient-to-r from-purple-500/10 to-transparent w-full justify-center mt-6">
                     <span className="h-2 w-2 rounded-full bg-[#FF7B47]" />
                     View All Projects
-                </button>
+                </button> */}
             </div>
         </div>
     );
