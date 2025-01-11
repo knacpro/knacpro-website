@@ -8,7 +8,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export default function FooterSection() {
     return (
         <footer
-            className="bg-[#1f2125] text-white py-12 px-4 sm:px-8"
+            className="bg-[#221f25] text-white py-12 px-4 sm:px-8"
             style={montserrat.style}>
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* Contact Info */}
@@ -64,10 +64,10 @@ export default function FooterSection() {
                         {[
                             "Web Applications",
                             "Mobile Applications",
-                            "Desktop Applications",
                             "UI/UX Designs",
-                            "Unit/Automation Testing",
-                            "Project Management"
+                            "Software Testing",
+                            "Project Management",
+                            "Industrial Automation"
                         ].map(service => (
                             <li
                                 key={service}
@@ -85,12 +85,11 @@ export default function FooterSection() {
                     </h2>
                     <ul className="space-y-2">
                         {[
-                            "Mobile Apps",
-                            "Web Development",
+                            "Mobile Applications",
+                            "Web Applications",
                             "Digital Marketing",
-                            "Photography",
-                            "Software Development",
-                            "Data Science"
+                            "Software Testing",
+                            "Industrial Automation"
                         ].map(project => (
                             <li
                                 key={project}
@@ -104,44 +103,38 @@ export default function FooterSection() {
                 {/* Quick Support */}
                 <div>
                     <h2 className="font-bold text-lg md:text-xl mb-4 underline">
-                        Quick Support
+                        Quick Links
                     </h2>
                     <ul className="space-y-2 ml-2">
                         <li>
                             <Link
-                                href="/contact"
+                                href="/"
                                 className="text-sm sm:text-base text-white hover:underline cursor-pointer">
-                                Contact Us
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                href="#"
-                                className="text-sm sm:text-base text-white hover:underline cursor-pointer">
-                                FAQ
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                href="#"
-                                className="text-sm sm:text-base text-white hover:underline cursor-pointer">
-                                Privacy Policy
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                href="#"
-                                className="text-sm sm:text-base text-white hover:underline cursor-pointer">
-                                Terms and Conditions
+                                Home
                             </Link>
                         </li>
                         <li>
                             <Link
                                 href="/about"
                                 className="text-sm sm:text-base text-white hover:underline cursor-pointer">
-                                Team
+                                About
                             </Link>
                         </li>
+                        <li>
+                            <Link
+                                href="/services"
+                                className="text-sm sm:text-base text-white hover:underline cursor-pointer">
+                                Services
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                href="/pricing"
+                                className="text-sm sm:text-base text-white hover:underline cursor-pointer">
+                                Pricing
+                            </Link>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>

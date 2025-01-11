@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pt-28">
@@ -74,10 +76,10 @@ export default function AboutPage() {
           </div>
 
           {/* CTA Button */}
-          <button className="inline-flex items-center px-6 py-3 border border-[#FF5722] text-[#FF5722] rounded-lg hover:bg-[#FF5722] hover:text-white transition-colors">
+          <Link href={'/contact'} className="inline-flex items-center px-6 py-3 border border-[#FF5722] text-[#FF5722] rounded-lg hover:bg-[#FF5722] hover:text-white transition-colors">
             <span className="w-2 h-2 bg-[#FF5722] rounded-full mr-2"></span>
-            Request A Quote
-          </button>
+            Contact us
+          </Link>
         </div>
       </div>
     </div>

@@ -4,27 +4,31 @@ import Link from 'next/link'
 
 export default function ServicesComponent() {
   const services = [
-    {
-      number: "01",
-      title: "Security Management",
-      description: "The Imperative of Cybersecurity in an Interconnected World.",
-    },
-    {
-      number: "02",
-      title: "Data Privacy",
-      description: "The Imperative of Cybersecurity in an Interconnected World.",
-    },
-    {
-      number: "03",
-      title: "Network Security",
-      description: "The Imperative of Cybersecurity in an Interconnected World.",
-    },
-    {
-      number: "04",
-      title: "DDOS Protection",
-      description: "The Imperative of Cybersecurity in an Interconnected World.",
-    },
-  ]
+      {
+          number: "01",
+          title: "Software Development",
+          description:
+              "Software development is the process of designing, coding, testing, and maintaining applications or systems to meet specific user needs and business objectives."
+      },
+      {
+          number: "02",
+          title: "Software Testing",
+          description:
+              "Software testing is the process of evaluating a software application to identify defects, ensure quality, and verify it meets specified requirements."
+      },
+      {
+          number: "03",
+          title: "Project Management",
+          description:
+              "Project management is the practice of planning, organizing, and overseeing tasks and resources to achieve specific goals within defined timelines and budgets."
+      },
+      {
+          number: "04",
+          title: "Industrial Automation",
+          description:
+              "Industrial automation is the use of technology and control systems to operate machinery and processes with minimal human intervention, improving efficiency and accuracy."
+      }
+  ];
 
   return (
     <section className="py-16 px-4 md:py-24">

@@ -1,5 +1,6 @@
 import { ArrowRight, Users, Radio } from 'lucide-react'
 import Image from "next/image"
+import Link from 'next/link';
 
 export default function ServiceInfo() {
   return (
@@ -8,15 +9,15 @@ export default function ServiceInfo() {
           <div className="max-w-7xl mx-auto">
               <p className="text-[#F97316] mb-4">What We Do</p>
               <h1 className="text-4xl md:text-5xl font-bold mb-12">
-                  Our Extensive Network Security Services.
+                  Our Extensive Software Development Services.
               </h1>
 
               <div className="grid md:grid-cols-3 gap-8 mb-20">
                   {/* Service Cards */}
                   {[
-                      "Unleashing Ability through Network Management.",
-                      "Building a Robust Defense Against Cyber-Attacks",
-                      "Harnessing the Power of Online Network Security Systems."
+                      "Unleashing Ability through Web Development.",
+                      "Building a Robust Mobile Applications",
+                      "Developing the most elegant UI/UX Designs."
                   ].map((title, index) => (
                       <div key={index} className="flex gap-4">
                           <div className="flex-shrink-0">
@@ -50,22 +51,23 @@ export default function ServiceInfo() {
                               alt="Team Collaboration"
                               width={600}
                               height={400}
-                              className="rounded-lg w-[350px] h-[400px] mr-10"
+                              className="w-[350px] h-[350px] mr-10 rounded-full"
                           />
                       </div>
                   </div>
 
                   <div className="pt-12 lg:pt-0">
-                      <p className="text-[#F97316] mb-4">About Paheli</p>
+                      <p className="text-[#F97316] mb-4">About Knacpro</p>
                       <h2 className="text-3xl md:text-4xl font-bold mb-6">
                           The Comprehensive Solution for Your Needs.
                       </h2>
                       <p className="text-gray-400 mb-8">
-                          Organizations are now compelled to complete
-                          comprehensive cybersecurity strategies to safeguard
-                          their systems, networks, and data from the relentless
-                          onslaught of cyber threats, ensuring the protection of
-                          privacy...
+                          Knac Pro combines diverse expertise with a
+                          client-focused approach, delivering tailored solutions
+                          on time. Our agile methods ensure flexibility, and our
+                          ongoing support keeps your applications running
+                          smoothly. With a proven track record, we are dedicated
+                          to driving your success.
                       </p>
 
                       {/* Features */}
@@ -79,9 +81,7 @@ export default function ServiceInfo() {
                                       Highly Professional Members
                                   </h3>
                                   <p className="text-gray-400">
-                                      Organizations are now forced to implement
-                                      comprehensive cyber security strategies to
-                                      protect their systems,
+                                      We develop a robust mobile and web applications,
                                   </p>
                               </div>
                           </div>
@@ -95,18 +95,16 @@ export default function ServiceInfo() {
                                       Infrastructure Integration Technology
                                   </h3>
                                   <p className="text-gray-400">
-                                      Organizations are now forced to implement
-                                      comprehensive cyber security strategies to
-                                      protect their systems,
+                                      We provide an elegant UI/UX Designs and perform end to end testing,
                                   </p>
                               </div>
                           </div>
                       </div>
 
                       {/* CTA Button */}
-                      <button className="bg-gradient-to-r from-[#E879F9] to-[#F97316] text-white px-6 py-3 rounded-full flex items-center gap-2 hover:gap-3 transition-all">
+                      <Link href={'/about'} className="bg-gradient-to-r from-[#E879F9] to-[#F97316] text-white px-6 py-3 rounded-full flex items-center gap-2 hover:gap-3 transition-all w-52">
                           Know More About <ArrowRight className="w-4 h-4" />
-                      </button>
+                      </Link>
                   </div>
               </div>
           </div>

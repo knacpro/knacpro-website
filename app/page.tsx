@@ -4,7 +4,6 @@ import HomeNavbar from "@/components/header/home-navbar";
 import ProjectsShowcase from "@/components/home/projects-showcase";
 import ServiceInfo from "@/components/home/service-info";
 import ServiceLists from "@/components/home/service-lists";
-import Image from "next/image";
 
 export default function Home() {
   return (

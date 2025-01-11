@@ -1,29 +1,34 @@
 import Image from 'next/image'
 import { ArrowUpRight } from 'lucide-react'
+import Link from 'next/link';
 
 export default function ServicesSection() {
   const services = [
-    {
-      title: "Web Applications",
-      image: "/assets/images/webdev.jpg?height=400&width=600",
-      description: "The Imperative of Cybersecurity in an Interconnected World.",
-    },
-    {
-      title: "Mobile Applications",
-      image: "/assets/images/mobileapp.jpg?height=400&width=600",
-      description: "The Imperative of Cybersecurity in an Interconnected World.",
-    },
-    {
-      title: "UI/UX Designs",
-      image: "/assets/images/UI.jpg?height=400&width=600",
-      description: "The Imperative of Cybersecurity in an Interconnected World.",
-    },
-    {
-      title: "Testing",
-      image: "/assets/images/testing.jpg?height=400&width=600",
-      description: "The Imperative of Cybersecurity in an Interconnected World.",
-    },
-  ]
+      {
+          title: "Web Applications",
+          image: "/assets/images/webdev.jpg?height=400&width=600",
+          description:
+              "Web development involves creating and maintaining websites, ensuring functionality, performance, and seamless user experiences."
+      },
+      {
+          title: "Mobile Applications",
+          image: "/assets/images/mobileapp.jpg?height=400&width=600",
+          description:
+              "Mobile app development focuses on creating software applications for smartphones and tablets, ensuring smooth functionality on Android and iOS platforms."
+      },
+      {
+          title: "UI/UX Designs",
+          image: "/assets/images/UI.jpg?height=400&width=600",
+          description:
+              "UI/UX design focuses on creating intuitive, visually appealing, and user-friendly interfaces to enhance user interaction and satisfaction."
+      },
+      {
+          title: "Software Testing",
+          image: "/assets/images/testing.jpg?height=400&width=600",
+          description:
+              "Software testing ensures the quality, functionality, and reliability of applications by identifying and fixing bugs or issues before deployment."
+      }
+  ];
 
   return (
     <section className="container mx-auto px-4 py-16">
@@ -34,10 +39,10 @@ export default function ServicesSection() {
           Tailored Solutions for your Success, Elevate your Experience with Our Exceptional and Comprehensive Services Today
           </h2>
         </div>
-        <button className="hidden md:flex items-center gap-2 px-6 py-3 border border-black rounded-full">
+        <Link href={'/services'} className="hidden md:flex items-center gap-2 px-6 py-3 border border-black rounded-full md:w-60">
           <span className="h-2 w-2 bg-[#FF6B00] rounded-full" />
           View All Services
-        </button>
+        </Link>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -63,10 +68,10 @@ export default function ServicesSection() {
         ))}
       </div>
 
-      <button className="md:hidden w-full mt-8 flex items-center justify-center gap-2 px-6 py-3 border border-black rounded-full">
+      <Link href={'/services'} className="md:hidden w-full mt-8 flex items-center justify-center gap-2 px-6 py-3 border border-black rounded-full">
         <span className="h-2 w-2 bg-[#FF6B00] rounded-full" />
         View All Services
-      </button>
+      </Link>
     </section>
   )
 }
