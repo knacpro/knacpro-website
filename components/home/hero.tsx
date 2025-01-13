@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-      <div className="h-[700px] bg-[#2A2D3A] text-white relative overflow-hidden pt-20">
+      <div className="h-[700px] bg-[#2A2D3A] text-white relative overflow-hidden pt-20 md:pr-28">
           <div className="container mx-auto px-4 py-16 md:py-24">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                   {/* Left Column */}
@@ -33,7 +33,7 @@ export default function Hero() {
                   <div className="relative w-full max-w-sm lg:max-w-none lg:ml-40 mx-auto">
                       {/* Shield Container */}
                       <div className="relative w-full aspect-[4/3]">
-                          <div className="absolute inset-0">
+                          <div className="absolute inset-0 mb-20">
                               <div className="relative w-full h-full">
                                   <Image
                                       src="/assets/software-engineer-1.png"

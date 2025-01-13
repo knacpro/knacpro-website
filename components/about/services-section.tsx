@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { ArrowUpRight } from 'lucide-react'
 import Link from 'next/link';
 
 export default function ServicesSection() {
@@ -31,7 +30,7 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section className="container mx-auto px-4 py-16">
+    <section className="container mx-auto px-4 py-4">
       <div className="flex justify-between items-center mb-12">
         <div>
           <h3 className="text-[#FF6B00] text-lg mb-4">Our Services</h3>
@@ -58,12 +57,6 @@ export default function ServicesSection() {
             </div>
             <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
             <p className="text-gray-600 mb-4">{service.description}</p>
-            <a 
-              href="#" 
-              className="inline-flex items-center text-black hover:text-[#FF6B00] transition-colors"
-            >
-              Read More <ArrowUpRight className="ml-1 h-4 w-4" />
-            </a>
           </div>
         ))}
       </div>

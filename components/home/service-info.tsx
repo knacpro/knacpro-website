@@ -34,14 +34,14 @@ export default function ServiceInfo() {
               </div>
 
               {/* About Section */}
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="grid lg:grid-cols-2 gap-12 items-center md:mr-20 mb-10">
                   <div className="relative">
                       <Image
                           src="/assets/software-engineer-2.png"
                           alt="Network Security"
                           width={800}
                           height={400}
-                          className="rounded-lg max-w-full h-auto mx-auto"
+                          className="rounded-lg w-96 h-auto mx-auto"
                       />
                       <div className="absolute -bottom-10 right-0 lg:-right-10 hidden md:block">
                           <Image
@@ -49,7 +49,7 @@ export default function ServiceInfo() {
                               alt="Team Collaboration"
                               width={600}
                               height={400}
-                              className="w-48 sm:w-56 md:w-64 h-auto rounded-full"
+                              className="w-48 sm:w-56 md:w-64 md:h-60 h-auto rounded-full"
                           />
                       </div>
                   </div>

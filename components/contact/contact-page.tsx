@@ -38,7 +38,6 @@ export default function ContactPage() {
             <h2 className="text-xl font-bold mb-4">Contact Info:</h2>
             <div className="text-gray-600 space-y-2 font-bold">
              <p>+91 7676193045</p>
-              <p>+91 9611828660</p>
             </div>
           </CardContent>
         </Card>

@@ -59,7 +59,7 @@ export default function AboutPage() {
           </p>
 
           {/* Stats */}
-          <div className="grid sm:grid-cols-2 gap-8 pt-8">
+          <div className="grid sm:grid-cols-2 gap-8 pt-2">
             <div>
               <div className="text-3xl md:text-4xl font-bold mb-4">4.7+</div>
               <h3 className="text-lg md:text-xl font-semibold mb-2">Review Customer</h3>
