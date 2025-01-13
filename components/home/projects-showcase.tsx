@@ -27,7 +27,7 @@ export default function ProjectsShowcase() {
             <div className="max-w-[1400px] mx-auto">
                 <div className="flex justify-between items-start mb-6">
                     <div className="space-y-4">
-                        <h2 className="text-[#FF7B47] text-lg font-medium">
+                        <h2 className="text-[#FF7B47] font-bold  text-5xl">
                             Our Projects
                         </h2>
                         <h1 className="text-white text-3xl md:text-5xl font-bold max-w-3xl leading-tight">

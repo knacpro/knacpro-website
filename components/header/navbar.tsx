@@ -112,6 +112,15 @@ export default function Navbar() {
                         asChild>
                         <Link href="/contact">Get in touch</Link>
                     </Button>
+
+                    <a
+            href="https://wa.me/917676193045?text=Hi%2C%20I%20am%20interested%20in%20your%20services."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden lg:inline-flex px-6 py-2 text-white font-semibold bg-gradient-to-r from-green-400 to-green-600 rounded-md hover:from-green-500 hover:to-green-700"
+          >
+            WhatsApp Inquiry
+          </a>
                 </div>
             </div>
             {isSearchOpen && (

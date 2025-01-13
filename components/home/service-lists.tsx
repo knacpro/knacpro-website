@@ -1,3 +1,5 @@
+
+
 import { Bot, FolderCode, FolderCog, Laptop, Smartphone, TabletSmartphone } from "lucide-react";
 
 export default function ServiceLists() {
@@ -41,24 +43,24 @@ export default function ServiceLists() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#2A2D3A] py-16 px-4">
+    <div className="min-h-screen bg-[#2A2D3A] py-10 px-6">
       <div className="max-w-7xl mx-auto">
-        <p className="text-[#FF9F5A] text-center mb-4">Our Services</p>
-        <h2 className="text-white text-4xl md:text-5xl font-bold text-center mb-16">
-          Our Software Development Services.
+        <p className="text-[#FF9F5A] font-bold text-center text-4xl mb-4">Our Services</p>
+        <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-16">
+          Our Software Development Services
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-[#31344180] backdrop-blur-sm rounded-3xl p-8 flex flex-col gap-6"
+              className="bg-[#31344180] backdrop-blur-sm rounded-3xl p-6 flex flex-col gap-4"
             >
-              <div className="flex items-center justify-center">{service.icon}</div>
-              <h3 className="text-white text-2xl font-semibold ml-14">{service.title}</h3>
-              <p className="text-gray-400 flex-grow">{service.description}</p>
-              <button className="text-white flex items-center gap-2 hover:gap-4 transition-all">
-                Read More
-                <span className="font-bold">↗</span>
+              <div className="flex items-center justify-center mb-4">{service.icon}</div>
+              <h3 className="text-white text-xl sm:text-2xl font-semibold text-center">{service.title}</h3>
+              <p className="text-gray-400 text-center text-sm sm:text-base">{service.description}</p>
+              <button className="text-[#FF9F5A] mt-4 flex items-center justify-center gap-2 hover:gap-4 transition-all">
+                
+                <span className="font-bold"></span>
               </button>
             </div>
           ))}
@@ -67,4 +69,3 @@ export default function ServiceLists() {
     </div>
   )
 }
-

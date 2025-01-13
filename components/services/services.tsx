@@ -31,13 +31,13 @@ export default function ServicesComponent() {
   ];
 
   return (
-    <section className="py-16 px-4 md:py-24">
+    <section className="py-16 px-4 md:py-24 bg-gray-50">
       <div className="container mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-[#2A2D3A] mb-4">Our Services</h2>
           <div className="flex items-center justify-center gap-2 text-lg">
-            <Link href="/" className="hover:opacity-80">
+            <Link href="/" className="hover:text-orange-500 transition-colors">
               Home
             </Link>
             <span className="text-gray-400">›</span>
@@ -46,18 +46,18 @@ export default function ServicesComponent() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="group relative p-6 rounded-2xl border border-gray-100 hover:shadow-xl transition-shadow duration-300"
+              className="group relative p-6 bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-xl transition-shadow duration-300"
             >
               <div className="mb-6">
-                <span className="text-6xl font-bold text-[#2A2D3A]/10">
+                <span className="text-5xl sm:text-6xl font-bold text-[#2A2D3A]/10">
                   {service.number}
                 </span>
               </div>
-              <h3 className="text-xl font-bold mb-4">{service.title}</h3>
+              <h3 className="text-lg sm:text-xl font-semibold mb-4 text-[#2A2D3A]">{service.title}</h3>
               <p className="text-gray-600 mb-6">{service.description}</p>
               <Link
                 href="/"
@@ -75,4 +75,3 @@ export default function ServicesComponent() {
     </section>
   )
 }
-

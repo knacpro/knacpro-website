@@ -30,26 +30,24 @@ const testimonials = [
         content:
             "This IT service company has exceeded our expectations. Their expert team not only delivered outstanding results but also ensured that the implementation process was smooth and hassle-free. Their commitment to excellence is evident in every aspect of their work.",
         author: "Parvati Shetty – Project Manager, Nexus Digital",
-    }
+    },
 ];
-
 
 export function ParentTestimonials() {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const nextTestimonial = () => {
-        setCurrentIndex(prevIndex => (prevIndex + 1) % testimonials.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
     };
 
     const prevTestimonial = () => {
         setCurrentIndex(
-            prevIndex =>
-                (prevIndex - 1 + testimonials.length) % testimonials.length
+            (prevIndex) => (prevIndex - 1 + testimonials.length) % testimonials.length
         );
     };
 
     return (
-        <div className="w-[1200px] mx-auto px-4 py-12">
+        <div className="max-w-5xl mx-auto px-4 py-12">
             <div className="text-center mb-8">
                 <p className="text-red-500 font-semibold">Feedbacks</p>
                 <h2 className="text-3xl font-bold mt-2">
@@ -58,17 +56,17 @@ export function ParentTestimonials() {
                 <div className="w-24 h-1 bg-blue-500 mx-auto mt-2"></div>
             </div>
 
-            <div className="flex items-center justify-between mb-8">
-                <div className="w-1/3">
+            <div className="flex flex-col lg:flex-row items-center justify-between mb-8 space-y-6 lg:space-y-0 lg:space-x-8">
+                <div className="flex-shrink-0">
                     <Image
                         src={"/assets/images/services1.jpg"}
                         alt={"parent testimonials"}
                         width={300}
                         height={200}
-                        className="w-96 h-72 object-cover mb-2"
+                        className="w-full lg:w-96 h-72 object-cover rounded-lg"
                     />
                 </div>
-                <Card className="w-2/3 ml-8 h-60 flex-shrink-0 overflow-hidden">
+                <Card className="flex-1 lg:h-60 flex-shrink-0 overflow-hidden">
                     <CardContent className="p-6 h-full flex flex-col justify-between">
                         <p className="text-gray-700 mb-4 overflow-y-auto max-h-36">
                             {testimonials[currentIndex].content}
@@ -85,16 +83,17 @@ export function ParentTestimonials() {
             <div className="flex justify-center space-x-4">
                 <button
                     onClick={prevTestimonial}
-                    className="p-2 rounded-full bg-gray-200 hover:bg-gray-300">
+                    className="p-2 rounded-full bg-gray-200 hover:bg-gray-300"
+                >
                     <ChevronLeft className="w-6 h-6" />
                 </button>
                 <button
                     onClick={nextTestimonial}
-                    className="p-2 rounded-full bg-gray-200 hover:bg-gray-300">
+                    className="p-2 rounded-full bg-gray-200 hover:bg-gray-300"
+                >
                     <ChevronRight className="w-6 h-6" />
                 </button>
             </div>
         </div>
     );
 }
-

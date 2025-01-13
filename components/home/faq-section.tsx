@@ -50,7 +50,7 @@ export default function FAQSection() {
                 <div className="grid lg:grid-cols-2 gap-12">
                     {/* Left Column */}
                     <div>
-                        <span className="text-[#F97316] text-lg font-medium">
+                        <span className="text-[#F97316] text-4xl font-bold">
                             FAQs
                         </span>
                         <h1 className="text-4xl md:text-5xl font-bold mt-6 mb-8">
