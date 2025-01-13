@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import { House, IndianRupee, Menu, Settings, UserRound, UserRoundSearch } from "lucide-react";
 import { Button } from "@/components/ui/button";
