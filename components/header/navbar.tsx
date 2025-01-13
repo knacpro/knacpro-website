@@ -81,6 +81,8 @@ export default function Navbar() {
                                 <Image
                                     src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                                     alt="WhatsApp logo"
+                                    width={50}
+                                    height={50}
                                     className="w-5 h-5"
                                 />
                                 <span>WhatsApp </span>
@@ -147,6 +149,8 @@ export default function Navbar() {
                         <Image
                             src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                             alt="WhatsApp logo"
+                            width={50}
+                            height={50}
                             className="w-10 h-10 rounded-full"
                         />
                     </Link>

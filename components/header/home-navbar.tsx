@@ -84,6 +84,8 @@ export default function HomeNavbar() {
                               className="flex items-center py-2 text-white font-semibold bg-gradient-to-r space-x-2">
                               <Image
                                   src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                                  width={50}
+                                  height={50}
                                   alt="WhatsApp logo"
                                   className="w-5 h-5"
                               />
@@ -145,6 +147,8 @@ export default function HomeNavbar() {
                       <Image
                           src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                           alt="WhatsApp logo"
+                          width={50}
+                          height={50}
                           className="w-10 h-10 rounded-full"
                       />
                   </Link>

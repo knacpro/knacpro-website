@@ -1,15 +1,14 @@
 import { Mail, Phone, MapPin, Facebook } from "lucide-react";
-import { Montserrat } from "next/font/google";
+// import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+// const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function FooterSection() {
     return (
         <footer
-            className="bg-[#221f25] text-white py-12 px-4 sm:px-8"
-            style={montserrat.style}>
+            className="bg-[#221f25] text-white py-12 px-4 sm:px-8">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* Contact Info */}
                 <div>
@@ -166,6 +165,8 @@ export default function FooterSection() {
                         <Image
                             src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                             alt="WhatsApp logo"
+                            width={50}
+                            height={50}
                             className="w-9 h-9 rounded-full -mt-2.5"
                         />
                     </Link>
