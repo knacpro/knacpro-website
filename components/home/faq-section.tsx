@@ -38,7 +38,7 @@ export default function FAQSection() {
     ];
 
     const stats = [
-        { value: "3 +", label: "YEARS' EXPERIENCE" },
+        { value: "3 +", label: "YEARS EXPERIENCE" },
         { value: "8 +", label: "SOFTWARE ENGINEERING EXPERTS" },
         { value: "100 %", label: "CUSTOMER SATISFACTION" },
         { value: "10 +", label: "CUSTOMER SERVED GLOBALLY" }
@@ -57,11 +57,11 @@ export default function FAQSection() {
                             A Dedication to Supporting All Aspects of Your Life.
                         </h1>
                         <p className="text-gray-400 mb-8">
-                            Can't find what you are looking for?
+                            Cant find what you are looking for?
                         </p>
                         <div className="relative">
                             <h2 className="text-2xl md:text-3xl font-semibold mb-12">
-                                Let's Talk: Engage with Us in a Conversation
+                                Lets Talk: Engage with Us in a Conversation
                                 Tailored Just for You.
                             </h2>
                             <div className="absolute -right-4 top-1/2 transform -translate-y-1/2">

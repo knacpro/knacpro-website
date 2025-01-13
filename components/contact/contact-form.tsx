@@ -7,21 +7,12 @@ import { Circle } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 export default function ContactForm() {
-    const [loading, setLoading] = useState(true);
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [number, setNumber] = useState("");
     const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
     const resultRef = useRef<HTMLDivElement>(null);
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setLoading(false);
-        }, 1500);
-
-        return () => clearTimeout(timer);
-    }, []);
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();

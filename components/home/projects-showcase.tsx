@@ -1,12 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
-import { useRef } from "react";
 
 export default function ProjectsShowcase() {
-    const scrollRef = useRef<HTMLDivElement>(null);
-
     const projects = [
         {
             image: "/assets/bite-heaven.png",

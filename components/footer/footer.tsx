@@ -163,7 +163,7 @@ export default function FooterSection() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="lg:inline-flex px-2 py-2 text-white font-semibold bg-gradient-to-r rounded-md md:rounded-full">
-                        <img
+                        <Image
                             src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                             alt="WhatsApp logo"
                             className="w-9 h-9 rounded-full -mt-2.5"

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -18,28 +19,28 @@ export default function AboutPage() {
         {/* Image Grid */}
         <div className="grid grid-cols-2 gap-4">
           <div className="relative">
-            <img
+            <Image
               src="/assets/images/aboutweb.jpg?height=300&width=300"
               alt="Cybersecurity professional with holographic shield"
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
           <div className="relative mt-8 sm:mt-12">
-            <img
+            <Image
               src="/assets/images/aboutui.jpg?height=200&width=160"
               alt="Digital security interface"
               className="w-full aspect-square object-cover rounded-full mb-6"
             />
           </div>
           <div className="relative">
-            <img
+            <Image
               src="/assets/images/aboutdesk.jpg?height=200&width=200"
               alt="Laptop with security shield"
               className="w-full object-cover rounded-full aspect-square"
             />
           </div>
           <div className="relative mt-[-10px] sm:mt-[-20px]">
-            <img
+            <Image
               src="/assets/images/aboutdesk1.jpg?height=280&width=280"
               alt="Cybersecurity dashboard"
               className="w-full h-full object-cover rounded-lg"
