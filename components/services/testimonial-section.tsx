@@ -59,7 +59,7 @@ export function ParentTestimonials() {
             <div className="flex flex-col lg:flex-row items-center justify-between mb-8 space-y-6 lg:space-y-0 lg:space-x-8">
                 <div className="flex-shrink-0">
                     <Image
-                        src={"/assets/images/services1.jpg"}
+                        src={"/assets/services1.png"}
                         alt={"parent testimonials"}
                         width={300}
                         height={200}

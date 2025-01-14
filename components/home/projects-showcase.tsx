@@ -36,7 +36,7 @@ export default function ProjectsShowcase() {
                 {/* Responsive Grid Layout */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* First Project */}
-                    <div className="relative w-full h-[600px] md:h-[900px] md:w-[450px] rounded-2xl overflow-hidden group">
+                    <div className="relative w-full h-[700px] md:h-[900px] md:w-[450px] rounded-2xl overflow-hidden group">
                         <Image
                             src={projects[0].image}
                             alt={projects[0].alt}
@@ -50,7 +50,7 @@ export default function ProjectsShowcase() {
                         {projects.slice(1).map((project, index) => (
                             <div
                                 key={index}
-                                className="relative w-full h-[200px] md:h-[400px] md:w-[700px] rounded-xl overflow-hidden group">
+                                className="relative w-full h-[216px] md:h-[400px] md:w-[700px] rounded-xl overflow-hidden group">
                                 <Image
                                     src={project.image}
                                     alt={project.alt}

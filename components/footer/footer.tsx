@@ -30,7 +30,7 @@ export default function FooterSection() {
                             </Link>
                         </div>
                         <div className="flex items-center hover:underline cursor-pointer">
-                            <Link
+                            <a
                                 href="tel:+917676193045"
                                 className="flex space-x-1">
                                 <Phone
@@ -38,7 +38,7 @@ export default function FooterSection() {
                                     aria-label="Phone"
                                 />
                                 <span>+91 7676193045</span>
-                            </Link>
+                            </a>
                         </div>
                         <div className="flex items-start">
                             <MapPin

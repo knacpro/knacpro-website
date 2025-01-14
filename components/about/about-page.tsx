@@ -20,28 +20,36 @@ export default function AboutPage() {
         <div className="grid grid-cols-2 gap-4">
           <div className="relative">
             <Image
-              src="/assets/images/aboutweb.jpg?height=300&width=300"
+              src="/assets/aboutweb.png?height=300&width=300"
               alt="Cybersecurity professional with holographic shield"
+              width={50}
+              height={50}
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
           <div className="relative mt-8 sm:mt-12">
             <Image
-              src="/assets/images/aboutui.jpg?height=200&width=160"
+              src="/assets/aboutui.png?height=200&width=160"
+              width={50}
+              height={50}
               alt="Digital security interface"
               className="w-full aspect-square object-cover rounded-full mb-6"
             />
           </div>
           <div className="relative">
             <Image
-              src="/assets/images/aboutdesk.jpg?height=200&width=200"
+              src="/assets/aboutdesk.png?height=200&width=200"
+              width={50}
+              height={50}
               alt="Laptop with security shield"
               className="w-full object-cover rounded-full aspect-square"
             />
           </div>
           <div className="relative mt-[-10px] sm:mt-[-20px]">
             <Image
-              src="/assets/images/aboutdesk1.jpg?height=280&width=280"
+              src="/assets/aboutdesk1.png?height=280&width=280"
+              width={50}
+              height={50}
               alt="Cybersecurity dashboard"
               className="w-full h-full object-cover rounded-lg"
             />
