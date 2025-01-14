@@ -20,38 +20,38 @@ export default function AboutPage() {
         <div className="grid grid-cols-2 gap-4">
           <div className="relative">
             <Image
-              src="/assets/aboutweb.png?height=300&width=300"
+              src="/assets/aboutweb.png"
               alt="Cybersecurity professional with holographic shield"
-              width={50}
-              height={50}
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </div>
-          <div className="relative mt-8 sm:mt-12">
-            <Image
-              src="/assets/aboutui.png?height=200&width=160"
-              width={50}
-              height={50}
-              alt="Digital security interface"
-              className="w-full aspect-square object-cover rounded-full mb-6"
+              width={500}
+              height={500}
+              className="object-cover rounded-lg h-full"
             />
           </div>
           <div className="relative">
             <Image
-              src="/assets/aboutdesk.png?height=200&width=200"
-              width={50}
-              height={50}
-              alt="Laptop with security shield"
-              className="w-full object-cover rounded-full aspect-square"
+              src={"/assets/aboutui.png"}
+              width={500}
+              height={500}
+              alt="Digital security interface"
+              className="aspect-square object-cover rounded-full mb-6"
             />
           </div>
-          <div className="relative mt-[-10px] sm:mt-[-20px]">
+          <div className="relative">
             <Image
-              src="/assets/aboutdesk1.png?height=280&width=280"
-              width={50}
-              height={50}
+              src="/assets/aboutdesk.png"
+              width={500}
+              height={500}
+              alt="Laptop with security shield"
+              className="object-cover rounded-full aspect-square"
+            />
+          </div>
+          <div className="relative">
+            <Image
+              src="/assets/aboutdesk1.png"
+              width={500}
+              height={500}
               alt="Cybersecurity dashboard"
-              className="w-full h-full object-cover rounded-lg"
+              className="object-cover rounded-lg h-full"
             />
           </div>
         </div>
