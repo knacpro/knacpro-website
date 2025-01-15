@@ -59,7 +59,7 @@ export default function AboutPage() {
         {/* Content */}
         <div className="space-y-8">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
-            Your Trusted Partner in Cybersecurity
+            Your Trusted Partner in Software Development
           </h2>
           <p className="text-gray-600 leading-relaxed font-normal text-sm sm:text-base">
             At KnacPro Solutions, we have built a solid foundation of expertise to meet the growing demands of our clients. 
