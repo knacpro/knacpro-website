@@ -25,6 +25,19 @@ export default function Home() {
                 <HomeLoader />
             ) : (
                 <>
+                    <head>
+                        <script
+                            async
+                            src="https://www.googletagmanager.com/gtag/js?id=G-3CT1Y43Z0M"></script>
+                        <script
+                            dangerouslySetInnerHTML={{
+                                __html: `window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-3CT1Y43Z0M');`
+                            }}></script>
+                    </head>
                     <HomeNavbar />
                     <Hero />
                     <ServiceInfo />

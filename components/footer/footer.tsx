@@ -263,9 +263,7 @@ export default function FooterSection() {
                         </svg>
                     </Link>
                     <Link
-                        href={
-                            "https://www.facebook.com/share/1ADZ9ymkKk/?mibextid=qi2Omg"
-                        }
+                        href={"https://www.facebook.com/share/14vGEXeBiD/"}
                         className="mb-2">
                         <Facebook size={30} className="bg-blue-500" />
                     </Link>
